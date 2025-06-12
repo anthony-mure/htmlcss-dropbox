@@ -9,7 +9,6 @@ body {
 }
 
 header {
-  background-color: rgb(27, 233, 233);
   padding: 10px;
   position: fixed;
   top: 0;
@@ -30,9 +29,14 @@ header {
   width: 600px;
 }
 
+
 .bg-grey {
   background-color: rgb(48, 45, 45);
   color: white;
+}
+
+.bg-white {
+  background-color: white;
 }
 
 .border-black {
@@ -49,14 +53,64 @@ header ul {
 }
 
 header ul li {
-  text-decoration: none;
   margin: 10px;
+  align-self: center;
 }
 
 .logo {
   width: 150px;
+  vertical-align: center;
+}
+
+
+.justify-content-center {
+  justify-content: center;
 }
 
 .align-items-center {
   align-items: center;
+}
+
+
+.coll-400 {
+  width: 400px;
+  height: 350px
+}
+
+.coll-600 {
+  width: 600px;
+  height: 350px
+}
+
+.coll-1000 {
+  width: 1000px;
+  height: 250px;
+}
+
+.box-blu {
+  height: 900px;
+  background-color: rgb(85, 161, 161);
+}
+
+.box-blu {
+  margin-top: 80px;
+}
+
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  height: 40px;
+  padding: 5px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.margin-left-100 {
+  margin-left: 100px;
 }
