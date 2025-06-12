@@ -10,7 +10,10 @@ body {
 
 header {
   background-color: rgb(27, 233, 233);
-  padding: 20px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .container {
@@ -24,11 +27,12 @@ header {
 }
 
 .col {
-  width: 500px;
+  width: 600px;
 }
 
 .bg-grey {
   background-color: rgb(48, 45, 45);
+  color: white;
 }
 
 .border-black {
@@ -37,4 +41,22 @@ header {
 
 .h-80 {
   height: 80px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.align-items-center {
+  align-items: center;
 }
